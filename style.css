@@ -79,7 +79,8 @@ h3{
 }
 @media screen and (max-width: 640px) {
     #team .card { left: 100px;
-    right: 100px;}
+    right: 100px;
+    align-content: center;}
   } 
   
 #main{ 
