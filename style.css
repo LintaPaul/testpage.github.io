@@ -81,7 +81,7 @@ h3{
     #team .card { margin-left: auto;
     margin-right: 100px; }
     #team .card img{
-        transform: scale(.6,.6);
+        transform: scale(1.2,1.2);
     }
   } 
   
