@@ -8,6 +8,7 @@
        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <section id="nav-bar">
@@ -15,28 +16,25 @@
             
             <a class="navbar-brand" href="#"><img src="images/ieeelogo.png"></a>
             <a class="navbar-brand" href="#"><img src="images/wielogo.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" toggle="dropdown-menu" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
+             
+            <div class="navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#about">ABOUT US <span class="sr-only">(current)</span></a>
+                  <a class="nav-link js-scroll-trigger" href="#about">ABOUT US</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#team">OUR TEAM</a>
+                  <a class="nav-link js-scroll-trigger" href="#team">OUR TEAM</a>
                 </li>
-                <li class="nav-item active dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="nav-item active">
+                  <a class="nav-link js-scroll-trigger" href="#activities">
                     ACTIVITIES
                   </a>
-                  <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item ml-auto" href="#recent">RECENT</a>
-                    <a class="dropdown-item ml-auto" href="#upcoming">UPCOMING</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#contact">CONTACT</a>
+                  <a class="nav-link js-scroll-trigger " href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -74,42 +72,60 @@
     <br><br><br>
     <!---Contents-->
   <section id="about">
-    <div class="container"><h3>About Us</h3>
+    <div class="flex-container"><h3>About Us</h3>
      <div><p>IEEE Women in Engineering (WIE) is one of the largest international professional organizations dedicated to promoting women engineers and scientists, and inspiring girls around the world to follow their academic interests in a career in engineering.Our goal is to facilitate the recruitment and retention of women in technical disciplines globally. We envision a vibrant community of IEEE women and men collectively using their diverse talents to innovate for the benefit of humanity.</p></div>
     </div>
   </section>
   <hr>
   <!---Team--->
-  <section id="team"><h3>EXCOM</h3><br><br>
-    <div class="row">
-      <div class="col-md-3 col-py-3">
+  <section id="team"><h3>2020 EXCOM</h3><br><br>
+    <div class="row container-fluid">
+      <div class="col-md-6 offset-3 col-py-3 main">
         
-        <div class="card">
-          <img src="images/college.jpg" class="img-fluid rounded-circle">
-          <div class="card-body">
-            <p>Name</p>
-            <p>Designation</p>
+        <div class="card" id="main"><img src="images/ann 4.jpg" class="img-fluid rounded-circle">
+          <div class="card-body">ANNMARY JOSEPH<br>Chairperson<br>
+            <a class="btn-floating btn-lg btn-tw mail" href="mailto:ann332@ieee.org" type="button" role="button"><i class="fa fa-envelope fa-1x"></i></a> 
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-py-3">
-        
-        <div class="card">
+       </div>    
+    </div>
+    <div class="row container-fluid">
+      <div class="col-md-6 col-py-3">
+          <div class="card">
           <img src="images/college.jpg" class="img-fluid rounded-circle">
-          <div class="card-body">
-            <p>Name</p>
-            <p>Designation</p>
+           <div class="card-body"><p>THANUSHA J<br>Vice Chairperson</p>
           </div>
+         </div>
+      </div>
+      <div class="col-md-6 col-py-3">
+        
+        <div class=" card">
+          <img src="images/Vrindha.jpg" class="img-fluid responsive rounded-circle">
+           <div class="card-body"> <p>VRINDHA V S<br>Secretary</p>
+            <a class="btn-floating btn-lg btn-tw mail" href="mailto:vrindhasv2000@gmail.com" type="button" role="button"><i class="fa fa-envelope fa-1x"></i></a>
+           </div>
         </div>
       </div>
-      <div class="col-md-3 col-py-3">
+    </div>
+    <div class="row container fluid">
+      <div class="col-md-6 col-py-3">
         
-        <div class="card">
-          <img src="images/college.jpg" class="img-fluid rounded-circle">
-          <div class="card-body">
-            <p>Name</p>
-            <p>Designation</p>
-          </div>
+        <div class="card border-primary">
+          <img src="images/Vrindha.jpg" class="img-fluid responsive rounded-circle">
+            <div class="card-body"> <p>ANJALI DILEEPKUMAR<br>Treasurer</p>
+            <a class="btn-floating btn-lg btn-tw mail" href="mailto:vrindhasv2000@gmail.com" type="button" role="button"><i class="fa fa-envelope fa-1x"></i></a>
+            </div>
+        </div>
+      </div>
+    
+    
+      <div class="col-md-6 col-py-3">
+        <div class=" card">
+          <img src="images/linta.JPG" class="img-fluid responsive rounded-circle">
+           <div class="card-body"><p>LINTA PAUL<br>Web master</p>
+            <a class="btn-floating btn-lg btn-tw mail" href="mailto:lintapaultkr1107@gmail.com" type="button" role="button"><i class="fa fa-envelope fa-1x"></i></a>
+            </div>
+          
         </div>
       </div>
     </div>
@@ -118,32 +134,7 @@
   <hr>
   <!---Activities-->
   <section id="activities"><h3>Activities</h3><article class="text">Take a look through the activities we conduct to find new dimensions to women empowerment</article>
-    <!--recent-->
-  <section id="recent"><h4>Recent Activities</h4>
-    <div class="card" style="width: 18rem; text-align:center;">
-      <img src="images/crew.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Artisania</h5>
-        <p class="card-text">An online craft competition conducted</p>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem; text-align:center;">
-      <img src="images/crew.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Activity2</h5>
-        <p class="card-text">Details can be given here.A short description of program</p>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem; text-align:center;">
-      <img src="images/crew.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Activity3</h5>
-        <p class="card-text">Details can be given here.A short description of program</p>
-      </div>
-    </div></section>
-  </section>
-  <!--upcoming events-->
-  <section id="upcoming"><h4>Upcoming Events</h4>
+    <!-- events-->
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
       <!--Controls-->
@@ -166,30 +157,41 @@
       <!--/.Indicators-->
     
       <!--Slides-->
-      <div class="carousel-inner" role="listbox">
+      <div class="carousel-inner flex-container" role="listbox" id="upcoming">
     
         <!--First slide-->
         <div class="carousel-item active">
     
-          <div class="col-md-6" style="float:left">
+          <div class="col-md-4" style="float:left">
             <div class="card mb-2">
               <img class="card-img-top"
                 src="images/crew.jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Event Name1</h4>
-                <p class="card-text">Brief description of the event can be given here.</p>
+                <h4 class="card-title">Artisania</h4>
+                <p class="card-text">An nation-wide online paper craft competition organised by Wie IEEE SB NSSCE in collabration with IEEE Mumbai,Tamil Nadu and Kerala sections to fight COVID-19 by keeping creative minds active</p>
                 <a class="btn btn-primary">Date</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6" style="float:left">
+          <div class="col-md-4" style="float:left">
             <div class="card mb-2">
               <img class="card-img-top"
                 src="images/crew.jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Event Name2</h4>
-                <p class="card-text">Brief description of the event can be given here.</p>
-                <a class="btn btn-primary">Date</a>
+                <h4 class="card-title">LED Scrolling</h4>
+                <p class="card-text">A three-week workshop with the initiative to train girls of first and second year in making LED scroller along with its installation in our IEEE SB room.The workshop gave them a hands-on experience and helped in boosting practical knowledge</p>
+                <a class="btn btn-primary">September 18 to November 4 2019</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/crew.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Xperion</h4>
+                <p class="card-text">As part of Xperion, the most prestigious four day flagship event of our SB WiE Affinity Group conducted many sessions and activity programmes which were aimed at inspiring young women to come out of their comfort zone and showcase their true potential</p>
+                <a class="btn btn-primary">February 20-24th</a>
               </div>
             </div>
           </div>
@@ -199,16 +201,16 @@
         <!--/.First slide-->
     
         <!--Second slide-->
-        <div class="carousel-item">
-    
+        <div class="carousel-item flex-container">
+         <h4>Continuous Training Sessions(CTS)</h4>
           <div class="col-md-4" style="float:left">
             <div class="card mb-2">
               <img class="card-img-top"
                 src="images/crew.jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Event Name3</h4>
-                <p class="card-text">Brief description of the event can be given here.</p>
-                <a class="btn btn-primary">Date</a>
+                <h4 class="card-title">CTS Basics Electronics Workshop</h4>
+                <p class="card-text">First activity under continuous training section initiative which helped the Wie Team to render hands on experience on basic electronics to junior girls and motivate them in having a practical approach while learning</p>
+                <a class="btn btn-primary">September 18 2019</a>
               </div>
             </div>
           </div>
@@ -217,9 +219,9 @@
               <img class="card-img-top"
                 src="images/crew.jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Event Name4</h4>
-                <p class="card-text">Brief description of the event can be given here.</p>
-                <a class="btn btn-primary">Date</a>
+                <h4 class="card-title">Python Session</h4>
+                <p class="card-text">A CTS aimed at teaching basics of programming using python making it a session comfortable for beginners in programming and a revision class for those who have taken a long break from coding</p>
+                <a class="btn btn-primary">28th to 31st October,2019</a>
               </div>
             </div>
           </div>
@@ -229,16 +231,40 @@
               <img class="card-img-top"
                 src="images/crew.jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Event Name5</h4>
-                <p class="card-text">Brief description of the event can be given here.</p>
-                <a class="btn btn-primary">Date</a>
+                <h4 class="card-title">Android Workshop</h4>
+                <p class="card-text">The workshop was conducted with the aim that students get familiarised with Android development and to learn how applications are created for android mobile operating system</p>
+                <a class="btn btn-primary">August 3, 2019</a>
               </div>
             </div>
           </div>
     
         </div>
         <!--/.Second slide-->
-    
+        <!--Third slide-->
+        <div class="carousel-item flex-container">
+           <div class="col-md-6" style="float:left">
+             <div class="card mb-2">
+               <img class="card-img-top"
+                 src="images/crew.jpg" alt="Card image cap">
+               <div class="card-body">
+                 <h4 class="card-title">Transliteration session</h4>
+                 <p class="card-text">Women in Computing Society of our SB conducted a webinar on Transliteration which gave all girls out there to learn a new technology in the lockdown period.The session was handled by Subin Siby from Swanthanthra Malayalam Computing</p>
+                 <a class="btn btn-primary">April 16 2020</a>
+               </div>
+             </div>
+           </div> 
+           <div class="col-md-6" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/crew.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Wie Week Celebrations</h4>
+                <p class="card-text">Women in Computing Society of our SB conducted a webinar on Transliteration which gave all girls out there to learn a new technology in the lockdown period.The session was handled by Subin Siby from Swanthanthra Malayalam Computing</p>
+                <a class="btn btn-primary">April 16 2020</a>
+              </div>
+            </div>
+          </div> 
+           </div>  
        
     
       </div>
@@ -246,15 +272,33 @@
     
     </div>
     <!--/.Carousel Wrapper-->
-
   </section><hr>
   <!---Contact-->
-  <section id="contact"><h3>Get in touch with Us</h3>
-    <div id="icons">
-      <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-facebook fa-2x"></i></a>
-      <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-instagram fa-2x"></i></a>
-      <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-envelope fa-2x"></i></a>
-    </div>
+  <section id="contact" class="flex-container"><h3>Get in touch with Us</h3>
+    
+    <div class="flex-container">
+       <div><p><u>Office Address:</u><br>
+        IEEE, NSSCE,<br>
+        Akathethara, Palakkad P.O.<br>
+        678008</p>
+       </div>
+        <div id="icons">
+      
+          <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-facebook fa-2x"></i></a>
+          <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-instagram fa-2x"></i></a>
+          <a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fa fa-envelope fa-2x"></i></a>
+        </div>
+        <div class="mapouter ml-auto responsive">
+          <div class="gmap_canvas">
+            <iframe width="600" height="500" id="gmap_canvas"  src="https://maps.google.com/maps?q=nss%20college%20of%20engineering&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" ></iframe>
+          </div>
+        </div>
+    </div> 
   </section>
+        <script type="text/javascript">
+            $('.js-scroll-trigger').click(function(){
+               $('.navbar-collapse').collapse('hide');
+            });
+        </script>
 </body>
 </html>
