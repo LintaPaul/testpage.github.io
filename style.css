@@ -78,7 +78,7 @@ h3{
     margin-bottom: 12px;
 }
 @media screen and (max-width: 640px) {
-    #team .card { margin-left: auto;
+    #team .card { left: 100px;
     right: 100px;}
   } 
   
