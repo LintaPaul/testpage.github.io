@@ -24,7 +24,6 @@ height: 90px;
     padding-left: 8px;
 }
 .navbar-nav li a{
-    display: flexbox;
     margin-left: 100px;
     color: #800080!important;
 }
@@ -76,25 +75,22 @@ h3{
 #team .card{
     
     border: #800080!important;
-    display: flexbox;
     margin-bottom: 12px;
 }
-#main{
-    
+#main{ 
     align-items: center;
     position: relative;
     right: 40px;
    
 }
 
-#team img{
+#team .card img{
     border-radius: 50%!important;
-    width: 60%;
-    height: 80%;
-    margin-left: 100px;
-    margin-right: 100px;
     object-fit: contain;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
 }
 
 #team .card-body{
