@@ -80,6 +80,10 @@ h3{
 @media screen and (max-width: 640px) {
     #team .card { margin-left: auto;
     margin-right: auto;}
+    #team .card img{
+        width: 80%;
+        height: 80%;
+    }
   } 
   
 #main{ 
