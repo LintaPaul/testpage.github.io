@@ -77,6 +77,10 @@ h3{
     border: #800080!important;
     margin-bottom: 12px;
 }
+#team .card .chair{
+    text-align: center!important;
+    margin-left: 400px;
+}
 @media screen and (max-width: 640px) {
     #team .card {
     margin-right: 100px;
