@@ -77,14 +77,15 @@ h3{
     border: #800080!important;
     margin-bottom: 12px;
 }
-#team .card .chair{
-    text-align: center!important;
-    margin-left: 400px;
-}
+
 @media screen and (max-width: 640px) {
     #team .card {
     margin-right: 100px;
     align-content: center;}
+    #team .card img{
+        width: 60%;
+        height: 60%;
+    }
   } 
   
 #main{ 
@@ -152,21 +153,23 @@ h3{
     font-weight: bold;
     border: none!important;
 }
-.mapouter{
-    position: relative;;
-    text-align:right;
-    height:500px;
-    width:600px;
-}
 
-#gmap_canvas{
-    overflow:hidden;
-    background:none!important;
-    height:400px;
-    width:400px;
-    justify-content: flex-end;
-}
 
 #contact{
     padding-top: 100px;
     }
+#contact .card{
+    padding-top: 60px;
+    border: none!important;
+}
+#contact .card-title{
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact .card-body{
+    color: #800080!important;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
