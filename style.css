@@ -42,9 +42,10 @@ margin-top: -80px;
 
 }
 .carousel-item img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     z-index: -1;
+    
 }
 h3{
     color:#800080 !important;
