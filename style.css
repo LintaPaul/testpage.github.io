@@ -134,7 +134,10 @@ h3{
    font-size: 38px;
     
 }
-
+#multi-item-example ol .carousel-indicators{
+    color: #800080!important;
+    font-size: 38px;
+}
 #upcoming{
 
     padding-top: 100px;
@@ -164,10 +167,18 @@ h3{
 footer{
     background-color: #800080;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 
 footer .icon{
     color: aliceblue!important;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+  
+  
+  
+  
+  
+  
