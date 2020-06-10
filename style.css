@@ -128,6 +128,22 @@ h3{
     font-size: 24px;
     text-align:center;
 }
+#activities .card
+{
+  border-color: #800080;
+}
+
+#activities .card-title{
+  font-size: 24px;
+  color:#800080!important;
+  text-align: center;
+  font-weight: bold;
+}
+#activities .card-body{
+  font-size: 20px;
+  color: #800080;
+  text-align: center;
+}
 
 #icons{
     color: #800080!important;
