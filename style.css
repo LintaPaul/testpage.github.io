@@ -131,6 +131,7 @@ h3{
 #activities .card
 {
   border-color: #800080;
+  padding-bottom: 10px;
 }
 
 #activities .card-title{
