@@ -42,8 +42,8 @@ margin-top: -80px;
 
 }
 .carousel-item img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: auto;
     z-index: -1;
 }
 h3{
@@ -144,9 +144,9 @@ h3{
 #upcoming h4{
    padding-bottom: 20px;
 }
-#upcoming .carousel-control-prev-icon .carousel-control-next-icon{
-    color: blue!important;
-}
+
+
+
 #upcoming .btn{
     background-color: #800080!important;
     color: white!important;
