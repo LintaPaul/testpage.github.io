@@ -43,8 +43,9 @@ margin-top: -80px;
 }
 .carousel-item img{
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     z-index: -1;
+    object-fit: contain;
     
 }
 h3{
