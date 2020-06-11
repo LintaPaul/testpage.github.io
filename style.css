@@ -1,5 +1,8 @@
-html{
+html,body{
     scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 #nav-bar{
     position: sticky;
@@ -43,7 +46,6 @@ margin-top: -80px;
 }
 .carousel-item img{
     max-width: 100%;
-    max-height: 100%;
     z-index: -1;
     position: relative;
     object-fit: cover;
@@ -132,16 +134,37 @@ h3{
 {
   border-color: #800080;
   margin-bottom: 10px;
-  margin-left: 8px;
-  margin-right: 8px;
   margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#activities .card-header{
+    border: none!important;
 }
 
+#activities .card-img-top
+{
+    
+    overflow-x: hidden;
+}
 #activities .card-title{
   font-size: 24px;
   color:#800080!important;
   text-align: center;
   font-weight: bold;
+}
+#activities .card-title .btn[aria-expanded=true] .fa-chevron-down{
+    display: none;
+}
+#activities .card-title .btn[aria-expanded=false] .fa-chevron-up{
+    display: none;
+}
+#activities .card-title .btn-floating{
+    color:#800080;
+}
+#activities .card-title .btn-floating:hover{
+    color:#800080;
+    opacity: 50%;
 }
 #activities .card-body{
   font-size: 20px;
@@ -193,11 +216,10 @@ footer{
 
 footer .icon{
     color: aliceblue!important;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px;
+    
 }
 
-  
   
   
   
