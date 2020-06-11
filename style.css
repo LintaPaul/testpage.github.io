@@ -1,8 +1,8 @@
 html,body{
     scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
     overflow-x: hidden;
+    width:100%;
+    height: 100%;
 }
 #nav-bar{
     position: sticky;
@@ -122,13 +122,14 @@ h3{
 }
 #activities{
     margin-top: 10px;
-    padding-top: 80px;
+    padding-top: 70px;
     margin-bottom: 80px;
 
 }
 #activities .text{
     font-size: 24px;
     text-align:center;
+    padding-bottom:8px;
 }
 #activities .card
 {
@@ -167,10 +168,10 @@ h3{
     opacity: 50%;
 }
 #activities .card-body{
-  font-size: 20px;
+  font-size: 18px;
   color: #800080;
   text-align: center;
-  height: 200px;
+  
 }
 
 #icons{
