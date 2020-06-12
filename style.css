@@ -183,7 +183,7 @@ h3{
 
 
 footer{
-    
+    margin-top: 10px;
     padding-top: 60px;
     background-color: #800080;
    
@@ -201,7 +201,7 @@ footer{
 {overflow:hidden;
     background:none!important;
     height: 500px;
-    width: 400px;
+    width: 600px;
     right: 30px;
 }
 .footer-copyright{
