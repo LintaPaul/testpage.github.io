@@ -57,7 +57,7 @@ h3{
     font-weight: lighter;
 }
 #about{
-    padding-top: 80px;
+    padding-top: 60px;
     
 }
 #about p{
@@ -69,7 +69,7 @@ h3{
 }
 #team{
     margin-top: 10px;
-    padding-top: 80px;
+    padding-top: 60px;
     margin-bottom: 80px;
 
 }
@@ -122,7 +122,7 @@ h3{
 }
 #activities{
     margin-top: 10px;
-    padding-top: 70px;
+    padding-top: 60px;
     margin-bottom: 80px;
 
 }
@@ -133,20 +133,18 @@ h3{
 }
 #activities .card
 {
-  border-color: #800080;
+  border-color: #800080!important;
   margin-bottom: 10px;
   margin-top: 8px;
   margin-left: 10px;
   margin-right: 10px;
 }
-#activities .card-header{
-    border: none!important;
-}
+
 
 #activities .card-img-top
 {
-    
-    overflow-x: hidden;
+    height: 300px;
+    width: 100%;
 }
 #activities .card-title{
   font-size: 24px;
@@ -172,54 +170,57 @@ h3{
   color: #800080;
   text-align: center;
   overflow: hidden;
+  box-sizing: content-box;
   
 }
 
 #icons{
     color: #800080!important;
    font-size: 38px;
-    
-}
-#multi-item-example ol .carousel-indicators{
-    color: #800080!important;
-    font-size: 38px;
-}
-#upcoming{
-
-    padding-top: 100px;
-    margin-bottom: 70px;
-    color: #800080!important;
-    text-align: center;
-}
-#upcoming h4{
-   padding-bottom: 20px;
-}
+}  
 
 
-
-#upcoming .btn{
-    background-color: #800080!important;
-    color: white!important;
-    font-weight: bold;
-    border: none!important;
-}
-
-
-#contact{
-    padding-top: 80px;
-    }
 
 
 footer{
+    
+    padding-top: 60px;
     background-color: #800080;
-    text-align: center;
    
 }
-
+.footer-copyright{
+    opacity: 50%;
+}
+.mapouter
+{position:relative;
+    text-align:center;
+    height:500px;
+    width:600px;
+     }
+.gmap_canvas 
+{overflow:hidden;
+    background:none!important;
+    height: 500px;
+    width: 400px;
+    right: 10px;
+}
+.footer-copyright{
+    color: aliceblue;
+    opacity: 50%;
+}
 footer .icon{
     color: aliceblue!important;
     margin: 20px;
     
+    
+}
+.icon:hover{
+    opacity: 50%;
+}
+footer .card{
+    background-color: #800080;
+    color: white;
+    border:none!important;
 }
 
   
