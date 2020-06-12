@@ -14,7 +14,7 @@ html,body{
                 position: sticky;
                 visibility: visible!important; }
    .navbar-collapse{
-       max-width:100%;
+       max-width: 200px;
        margin-left: 10rem;
    }
   } 
