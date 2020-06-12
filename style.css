@@ -202,7 +202,7 @@ footer{
     background:none!important;
     height: 500px;
     width: 400px;
-    right: 10px;
+    right: 30px;
 }
 .footer-copyright{
     color: aliceblue;
@@ -221,6 +221,12 @@ footer .card{
     background-color: #800080;
     color: white;
     border:none!important;
+    left: 20px;
+    right: 20px;
+}
+footer.card-body{
+    margin: 20px;
+    padding: 10px;
 }
 
   
