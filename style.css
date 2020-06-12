@@ -13,6 +13,10 @@ html,body{
     #nav-bar {  top: 0 !important;
                 position: sticky;
                 visibility: visible!important; }
+   .navbar-collapse{
+       max-width:100%;
+       margin-left: 10rem;
+   }
   } 
   
 .navbar{
@@ -21,7 +25,11 @@ height: 90px;
 }
 #navbarSupportedContent{
     background-color: white!important;
+    
 }
+.navbar-collapse {
+    width: 200px;
+  }
 .navbar-brand img{
     height: 60px;
     padding-left: 8px;
@@ -36,7 +44,7 @@ height: 90px;
 
 .nav-link {
     font-weight: bold !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     
 }
 .navbar :target{
