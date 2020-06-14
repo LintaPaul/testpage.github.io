@@ -7,9 +7,9 @@ html,body{
 #nav-bar{
     position: sticky;
     top: 0;
-    z-index: 10;
-    background-color: white;
-}
+    z-index: 1;
+    background-color: white;;
+ }
 @media screen and (max-width: 640px) {
     #nav-bar {  top: 0 !important;
                 position: sticky;
@@ -21,6 +21,7 @@ html,body{
        animation-fill-mode: both;
        -webkit-animation-fill-mode: both;
    }
+  
 
 }
 @keyframes slideIn{
@@ -37,34 +38,22 @@ html,body{
         opacity: 0;
      }
 }
-@-webkit-keyframes slideIn{
-    0%{
-        -webkit-transform: transform;
-        -webkit-opacity: 0;
-    }
-    100%{
-       -webkit-transform: translateY(0);
-       -webkit-opacity: 1;
-    }
-    0%{
-       -webkit-transform: translateY(1rem);
-      -webkit-opacity: 0;
-    }
-}
+
+
 .slideIn{
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
 }
-  
-   .navbar-nav li a{
+
+ .navbar-nav li a{
        text-align: center;
        right: 18px;
    }
-  } 
+
   
 .navbar{
 background-color: white;
-height: 90px;
+
 }
 
 
@@ -103,7 +92,9 @@ h3{
     font-weight: lighter;
 }
 #about{
+    margin-top: 10px;
     padding-top: 60px;
+    margin-bottom: 80px;
     
 }
 #about p{
