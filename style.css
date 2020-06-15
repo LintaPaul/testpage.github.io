@@ -124,6 +124,10 @@ h3{
         width: 80%;
         height: 80%;
     }
+    .mob{
+        width: 80%;
+        height: 80%;
+    }
     .card-img-top{
         object-fit: contain;
     }
