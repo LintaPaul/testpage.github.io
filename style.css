@@ -11,12 +11,7 @@ html,body{
     background-color: white;;
  }
 @media screen and (max-width: 640px) {
-    .navbar{
-        top:0!important;
-        background-color: white;
-        position: sticky!important;
-        
-        }
+   
    .animate{
        animation-duration: 0.3s;
        -webkit-animation-duration: 0.3s;
@@ -131,6 +126,9 @@ h3{
     }
     .card-img-top{
         object-fit: contain;
+    }
+    .navbar-toggler-icon{
+        border: none!important;
     }
   } 
   
