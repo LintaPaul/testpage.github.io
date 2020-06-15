@@ -120,10 +120,6 @@ h3{
     #team .card {
     margin-right: 100px;
     align-content: center;}
-    #team .card img{
-        width: 80%;
-        height: 80%;
-    }
     
     .card-img-top{
         object-fit: contain;
