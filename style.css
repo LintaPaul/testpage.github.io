@@ -184,7 +184,7 @@ h3{
     height: 320px;
    padding: 5px;
    margin: 4px;
-    object-fit: cover;
+    object-fit: contain;
     overflow-x: hidden!important;
 }
 #activities .card-title{
