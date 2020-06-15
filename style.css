@@ -124,10 +124,7 @@ h3{
         width: 80%;
         height: 80%;
     }
-    .mob{
-        width: 80%;
-        height: 80%;
-    }
+    
     .card-img-top{
         object-fit: contain;
     }
@@ -147,8 +144,8 @@ h3{
     object-fit: contain;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+   max-width: 60%;
+    height: auto;
 }
 
 #team .card-body{
