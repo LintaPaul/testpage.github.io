@@ -129,7 +129,7 @@ h3{
         width: 80%;
         height: 80%;
     }
-    #activities .card-img-top{
+    .card-img-top{
         object-fit: contain;
     }
   } 
