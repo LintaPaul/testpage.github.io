@@ -9,55 +9,30 @@ html,body{
     top: 0;
     z-index: 1;
     background-color: white !important;
-    
- }
+}
  h3{
      font-family: sans-serif!important;
  }
 @media screen and (max-width: 640px) {
    
-   .animate{
-       animation-duration: 0.3s;
-       -webkit-animation-duration: 0.3s;
-       animation-fill-mode: both;
-       -webkit-animation-fill-mode: both;
-   }
+   
    .gmap_canvas{
        overflow-x: hidden!important;
    }
-   #coverslide{
-       margin-bottom: 40px;
-   }
+   
   
 }
-@keyframes slideIn{
-     0%{
-         transform: translateY(1rem);
-         opacity: 0;
-     }
-     100%{
-        transform: translateY(0rem);
-        opacity: 1;
-     }
-     0%{
-        transform: translateY(1rem);
-        opacity: 0;
-     }
+
+#coverslide{
+    margin-bottom: 40px;
 }
-
-
-.slideIn{
-    -webkit-animation-name: slideIn;
-    animation-name: slideIn;
-}
-
 
 .navbar-brand img{
-    height: 60px;
+    height: 40px;
     padding-left: 8px;
 }
 .navbar-nav li a{
-    text-align: center;
+    text-align: left;
     right: 24px;
     margin-left: 100px;
     color: #6b278a!important;
@@ -99,20 +74,18 @@ h3{
 }
 #about{
     position: relative;
-    margin-top: 20px;
-    padding-top: 60px;
+    margin-top: 70px;
+    padding-top: 80px;
     margin-bottom: 80px;
-
-    
 }
 #about p{
     position: relative;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     font-family:sans-serif;
- 
-    padding: 2px;
-    line-height: 2rem;
+    
+    padding: 20px;
+    line-height: 2.5rem;
 
 }
 #team{
