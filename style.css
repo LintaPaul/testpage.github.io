@@ -90,6 +90,7 @@ margin-top: -80px;
     margin-top: 20px;
     
 }
+
 h3{
     color:#6b278a !important;
     text-align: center;
@@ -262,8 +263,9 @@ footer{
     right: 30px;
 }
 .footer-copyright{
-    color: aliceblue;
+    color: white!important;
     opacity: 50%;
+    background-color: black;
 }
 footer .icon{
     color: aliceblue!important;
@@ -285,6 +287,7 @@ footer.card-body{
     margin: 20px;
     padding: 10px;
 }
+
 
   
   
