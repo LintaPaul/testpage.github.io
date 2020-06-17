@@ -19,7 +19,9 @@ html,body{
    .gmap_canvas{
        overflow-x: hidden!important;
    }
-   
+   h3 .navbar-nav li a{
+       font-family:Arial, Helvetica, sans-serif!important;
+   }
   
 }
 
@@ -118,7 +120,11 @@ h3{
         object-fit: contain;
     }
     .navbar-toggler-icon{
-        border: none!important;
+        outline: none!important;
+        color: #6b278a!important;
+    }
+    .footer-copyright{
+        font-size: small;
     }
   } 
   
@@ -176,10 +182,10 @@ h3{
    overflow-x: hidden!important;
 }
 #activities .card-title{
-  font-size: 24px;
+  font-size: 22px;
   color:#6b278a!important;
   text-align: center;
-  font-weight: bold;
+ 
   font-family: sans-serif;
 }
 #activities .card-title .btn[aria-expanded=true] .fa-chevron-down{
