@@ -11,7 +11,6 @@ html,body{
     top: 0;
     z-index: 1;
     background-color: white !important;
-    
 }
  
 @media screen and (max-width: 640px) {
@@ -41,11 +40,13 @@ html,body{
 
 }
 
-  
+.customw{
+    width: 48%;
+}
 
 
 .nav-link {
-    font-weight: 600 !important;
+    font-weight: 200 !important;
     font-size: 24px !important;
    
     
