@@ -19,7 +19,10 @@ html,body{
    .gmap_canvas{
        overflow-x: hidden!important;
    }
-   
+   .navbar-nav li a{
+       font-size: 18px!important;
+       font-weight: 500!important;
+   }
 }
 
 #coverslide{
@@ -37,20 +40,14 @@ html,body{
     margin-right: 10px;
     color: #6b278a!important;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
 
 }
 
-.customw{
-    width: 48%;
-}
 
 
-.nav-link {
-    font-weight: 200 !important;
-    font-size: 24px !important;
-   
-    
-}
+
 
 .carousel-item{
     transition: 2s;
