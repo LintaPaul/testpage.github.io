@@ -6,11 +6,11 @@ html,body{
     font-family: 'Open Sans',sans-serif;
 }
 #nav-bar{
-    position: absolute!important;
+    position: sticky!important;
     top: 0;
     z-index: 1;
     background-color: white !important;
-    object-fit: cover;
+    
 }
  h3{
      font-family: sans-serif!important;
@@ -21,8 +21,7 @@ html,body{
    .gmap_canvas{
        overflow-x: hidden!important;
    }
-  
-  
+   
 }
 
 #coverslide{
@@ -58,10 +57,9 @@ html,body{
 }
 .carousel-item img{
     max-width: 100%;
-    z-index: -1;
-    position: relative;
+   
     object-fit: cover;
-    margin-top: 80px;
+    margin-top: 40px;
 
     
 }
