@@ -19,7 +19,7 @@ html,body{
    .gmap_canvas{
        overflow-x: hidden!important;
    }
-   h3 .navbar-nav li a{
+   body{
        font-family:'Open Sans', sans-serif!important;
    }
   
