@@ -69,11 +69,11 @@ h3{
     color:#6b278a !important;
     text-align: center;
     font-weight: bold;
-    font-family: inherit;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 #about{
     position: relative;
-    margin-top: 70px;
+    margin-top: 40px;
     padding-top: 80px;
     margin-bottom: 80px;
 }
@@ -159,7 +159,7 @@ h3{
     font-size: 24px;
     text-align:center;
     padding-bottom:12px;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 #activities .col{
