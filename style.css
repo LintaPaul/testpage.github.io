@@ -109,16 +109,11 @@ h3{
         width: 100%!important;
         height: auto;
     }
-    .navbar-toggler-icon:checked #about,#contact{
-        padding-top: 100px;
-    }
+    
     .card-img-top{
         object-fit: contain;
     }
-    .navbar-toggler-icon{
-        outline: none!important;
-        color: #6b278a!important;
-    }
+   
     .footer-copyright{
         font-size: small;
     }
