@@ -22,10 +22,12 @@ html,body{
    .navbar-nav li a{
        font-size: 18px!important;
        font-weight: 500!important;
-       margin-left:10rem!important;
+       
        text-decoration: underline;
        text-decoration-color:#6b278a!important;
-   }
+    
+     }
+  
    .heading{
        font-family: Verdana,Tahoma, sans-serif;
    }
