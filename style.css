@@ -29,6 +29,16 @@ html,body{
    .heading{
        font-family: Verdana,Tahoma, sans-serif;
    }
+   #nav-bar{
+       position: fixed!important;
+       width: 100%;
+       z-index:4!important;
+   }
+   .carousel-item{
+       position: relative!important;
+       margin-top: 44px;
+       z-index: -2!important;
+   }
 }
 
 #coverslide{
