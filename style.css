@@ -22,9 +22,7 @@ html,body{
    .navbar-nav li a{
        font-size: 18px!important;
        font-weight: 500!important;
-       text-decoration:underline;
-       text-decoration-color: #6b278a;
-      text-align: left!important;
+       margin-left:12rem!important;
    }
    .heading{
        font-family: Verdana,Tahoma, sans-serif;
@@ -39,6 +37,7 @@ html,body{
        margin-top: 44px;
        z-index: -2!important;
    }
+  
 }
 
 #coverslide{
