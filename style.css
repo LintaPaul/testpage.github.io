@@ -41,8 +41,9 @@ html,body{
        z-index: -2!important;
     }
     .navbar-brand img{
-        height: 44px!important;
+        height:44px!important;
         padding-left:2px;
+       
     }
   
 }
