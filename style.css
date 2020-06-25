@@ -40,7 +40,10 @@ html,body{
        padding-top: 50px;
        z-index: -2!important;
     }
-    
+    .navbar-brand img{
+        height: 50px!important;
+        padding-left:2px;
+    }
   
 }
 
