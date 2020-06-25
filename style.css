@@ -50,7 +50,7 @@ html,body{
 
 .navbar-brand img{
     height: 60px;
-    padding-left: 8px;
+    padding-left:4px;
 }
 .navbar-nav li a{
     text-align: left;
